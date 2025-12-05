@@ -1,5 +1,7 @@
 # n8n-mcp-server
 
+📌 Setup Guide: [https://github.com/sergio2171/n8n-mcp-server/blob/main/SETUP.md](https://github.com/sergio2171/n8n-mcp-server/blob/main/SETUP.md)
+
 This repository contains a local MCP (Model Context Protocol) server that allows Claude Desktop to manage workflows in n8n through the native API.
 
 Local MCP server (stdio) that lets Claude Desktop manage your n8n workflows over HTTPS.
