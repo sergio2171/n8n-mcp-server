@@ -1,14 +1,40 @@
 # n8n-mcp-server
 
+This repository contains a local MCP (Model Context Protocol) server that allows Claude Desktop to manage workflows in n8n through the native API.
+
 Local MCP server (stdio) that lets Claude Desktop manage your n8n workflows over HTTPS.
 
-## Features
-- Full CRUD for n8n workflows (list, get, create, update/merge, delete, activate/deactivate)
-- Zod-based validation with automatic node ID generation
-- Winston logging with adjustable log level
-- Environment-based configuration via `.env`
+## Features (MVP)-
+
+- List workflows
+- Get workflow structure
+- Create workflow
+- Update workflow
+- Delete workflow
+- Activate / Deactivate workflow
+
+## Download
+
+▶ Latest Release: [https://github.com/sergio2171/n8n-mcp-server/releases](https://github.com/sergio2171/n8n-mcp-server/releases)
+
+## File Structure
+
+```
+n8n-mcp-server/
+├── src/
+│   ├── index.js
+│   ├── n8nClient.js
+│   ├── operations.js
+│   ├── utils.js
+│   └── validators.js
+├── .env.example
+├── package.json
+├── README.md
+└── CLAUDE_CONFIG.md
+```
 
 ## Prerequisites
+- Activate / Deactivate workf
 - Node.js 18+ and npm
 - Access to your n8n instance and API key
 - Claude Desktop installed
